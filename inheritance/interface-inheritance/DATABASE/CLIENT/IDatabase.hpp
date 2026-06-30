@@ -22,6 +22,7 @@
 class IDatabase
 {
     public:
+        virtual ~IDatabase() {}
         virtual void connect() = 0;
         virtual void disconnect() = 0;
         virtual void executeQuery() = 0;

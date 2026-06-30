@@ -6,6 +6,8 @@
 class CPostgreSQL : public IDatabase
 {
     public:
+        CPostgreSQL();
+        ~CPostgreSQL();
         void connect();
         void disconnect();
         void executeQuery();

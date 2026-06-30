@@ -6,6 +6,8 @@
 class CSQLITE : public IDatabase
 {
     public:
+    CSQLITE();
+    ~CSQLITE();
     void connect();
     void disconnect();
     void executeQuery();

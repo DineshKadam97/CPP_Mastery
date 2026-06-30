@@ -7,6 +7,7 @@ class CMYSQL : public IDatabase
 {
     public:
         CMYSQL();
+        ~CMYSQL();
         void connect();
         void disconnect();
         void executeQuery();

@@ -1,6 +1,18 @@
 #include <iostream>
 #include "CSQLite.hpp"
 
+CSQLITE::CSQLITE()
+{
+
+
+}
+
+CSQLITE::~CSQLITE()
+{
+
+
+}
+
 void CSQLITE::connect()
 {
     std::cout << "SQLite connected successfully." << std::endl;

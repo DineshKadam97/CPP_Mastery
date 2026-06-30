@@ -26,4 +26,8 @@ void testDatabase(void)
     mySQLite->connect();
     mySQLite->disconnect();
     mySQLite->executeQuery();
+
+    delete mySQLite;
+    delete myPostgreSQL;
+    delete mySQL;
 }

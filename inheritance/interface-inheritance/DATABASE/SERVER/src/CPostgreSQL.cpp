@@ -1,6 +1,16 @@
 #include <iostream>
 #include "CPostgreSQL.hpp"
 
+CPostgreSQL::CPostgreSQL()
+{
+
+}
+
+CPostgreSQL::~CPostgreSQL()
+{
+    
+}
+
 void CPostgreSQL::connect()
 {
     std::cout << "PostgreSQL connected successfully." << std::endl;

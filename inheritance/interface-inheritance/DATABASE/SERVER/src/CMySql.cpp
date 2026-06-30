@@ -6,6 +6,11 @@ CMYSQL::CMYSQL()
     
 }
 
+CMYSQL::~CMYSQL()
+{
+    
+}
+
 void CMYSQL::connect()
 {
     std::cout << "MySQL connected successfully" << std::endl;
